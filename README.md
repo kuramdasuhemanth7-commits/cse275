@@ -1,6 +1,6 @@
 # CSE 275 - Algorithm Solutions
 
-A collection of C programs implementing various algorithms and data structures for CSE 275 coursework.
+A collection of C programs implementing various algorithms and data structures for COMPITATIVE PROGRAMMING coursework.
 
 ## Live Demo
 
