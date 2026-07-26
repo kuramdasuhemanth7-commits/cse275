@@ -17,10 +17,7 @@ A collection of C programs implementing various algorithms and data structures f
 - Ternary Search
 - Trie Data Structure
 
-## Technologies
 
-- **Language**: C (97.4%)
-- **HTML**: 2.6%
 
 ## Getting Started
 
@@ -30,11 +27,6 @@ git clone https://github.com/kuramdasuhemanth7-commits/cse275.git
 cd cse275
 ```
 
-Compile any C program:
-```bash
-gcc -o program_name program_name.c
-./program_name
-```
 
 ## Repository
 
