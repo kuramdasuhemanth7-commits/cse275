@@ -4,7 +4,7 @@ A collection of C programs implementing various algorithms and data structures f
 
 ## Live Demo
 
-📊 **[View Live Demo](https://kuramdasuhemanth7-commits.github.io/cse275/)**
+📊 **[View Live Demo](https://kuramdasuhemanth7-commits.github.io/cse275/allprograms.html)**
 
 ## Programs Included
 
