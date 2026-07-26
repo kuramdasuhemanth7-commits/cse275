@@ -136,7 +136,7 @@ void printTrie(TrieNode* root) {
 int main() {
     TrieNode* root = createNode();
     
-    // Insert words
+    
     insert(root, "hello");
     insert(root, "world");
     insert(root, "help");
@@ -144,22 +144,22 @@ int main() {
     insert(root, "cat");
     insert(root, "car");
     
-    // Search words
+    
     printf("Searching for 'hello': %s\n", search(root, "hello") ? "Found" : "Not found");
     printf("Searching for 'hell': %s\n", search(root, "hell") ? "Found" : "Not found");
     printf("Searching for 'world': %s\n", search(root, "world") ? "Found" : "Not found");
     printf("Searching for 'word': %s\n", search(root, "word") ? "Found" : "Not found");
     
-    // Check prefixes
+    
     printf("\nPrefix 'he': %s\n", startsWith(root, "he") ? "Yes" : "No");
     printf("Prefix 'ca': %s\n", startsWith(root, "ca") ? "Yes" : "No");
     printf("Prefix 'dog': %s\n", startsWith(root, "dog") ? "Yes" : "No");
     
-    // Print all words
+    
     printf("\nAll words in Trie:\n");
     printTrie(root);
     
-    // Delete a word
+    
     printf("\nDeleting 'help'...\n");
     deleteWord(root, "help");
     printf("Searching for 'help' after deletion: %s\n", search(root, "help") ? "Found" : "Not found");
